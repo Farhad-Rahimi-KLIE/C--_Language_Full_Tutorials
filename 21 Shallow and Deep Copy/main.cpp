@@ -10,7 +10,7 @@ class Student {
 
      Student(string name, double cgpa){
         this->name = name;
-        cgpaPtr = new double;
+        cgpaPtr = new double; // Dynamic Memory Allocation
         *cgpaPtr = cgpa;
      }
 
